@@ -1,0 +1,19 @@
+{
+  "name": "mars-rover-nodejs",
+  "version": "1.0.0",
+  "description": "Test for Foxbit",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/**.spec.js",
+    "start": "node index.js s"
+  },
+  "author": "Diego Almeida",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.2",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.3"
+  }
+}
